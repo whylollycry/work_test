@@ -1,0 +1,39 @@
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.input__faculty {
+  margin-bottom: 20px;
+}
+
+.error {
+  display: block;
+  width: 20%;
+  height: 35px;
+  margin-bottom: 15px;
+  color: red;
+}
+
+.form__list-enter {
+  margin-bottom: 20px;
+}
+
+.form__list-filter {
+  margin-bottom: 30px;
+}
+
+.table-th {
+  cursor: pointer;
+}
+
+.th-delete {
+  cursor: auto;
+}

@@ -1,0 +1,48 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.input {
+  margin-bottom: 30px;
+  width: 350px;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 45px;
+  margin-bottom: 45px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: navy;
+  color: transparent;
+  font-size: 42px;
+  transition: background-color, .3s, color, .3s;
+  cursor: pointer;
+}
+
+.card.open {
+  background-color: firebrick;
+  color: #FFF;
+}
+
+.card.success {
+  background-color: green;
+  color: #FFF;
+}
+
+.btn-again {
+  visibility: hidden;
+}
+
+.btn-again.visible {
+  visibility: visible;
+}
